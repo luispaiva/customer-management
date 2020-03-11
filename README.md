@@ -11,12 +11,13 @@ Plugin desenvolvido para gerenciar clientes no WordPress.
 * Notifica o responsável por em-mail quando um novo cliente é cadastrado.
 * Notifica o usuário sobre o recebimento do contato.
 
-### Bibliotecas e APIs de terceiros ###
+### Bibliotecas, plugins e APIs de terceiros ###
 
 * [TGM Plugin Activation](http://tgmpluginactivation.com)
 * [CMB2](https://cmb2.io)
 * [Contact Form 7](https://contactform7.com)
 * [Really Simple CAPTCHA](https://wordpress.org/plugins/really-simple-captcha)
+* [Toastr](https://codeseven.github.io/toastr/)
 
 ### Instalação ###
 
