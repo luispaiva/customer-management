@@ -1,0 +1,25 @@
+{
+    "name": "luis/customer-management",
+    "description": "Plugin desenvolvido para gerenciar clientes no WordPress.",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Luis Paiva",
+            "email": "contato@luispaiva.com.br",
+            "homepage": "https://luispaiva.com.br",
+            "role": "Developer PHP"
+        }
+    ],
+    "config": {
+        "vendor-lib": "vendor"
+     },
+    "autoload": {
+        "files": ["vendor/cmb2/cmb2/init.php"],
+        "psr-4": { "Source\\": "includes/" }
+    },
+    "require": {
+        "tgmpa/tgm-plugin-activation": "^2.6",
+        "cmb2/cmb2": "dev-master"
+    }
+}
